@@ -537,14 +537,16 @@ height: 40px;
 }
 
 .footer-form > .btn-footer {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
+    align-items: center;
     gap: 16px;
     padding: 8px 24px;
 
     color: var(--white-background);
     background-color: var(--primary-brand-color);
 }
+
 
 /* Button */
 .portfolio {
